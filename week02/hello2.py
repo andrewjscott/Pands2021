@@ -5,4 +5,4 @@
 name = input("Enter your name: ")
 
 # Outputs a greeting using the name entered by the user
-print ("Hello " + name)
+print ("Hello " + name + "\nNice to meet you.")
