@@ -5,6 +5,9 @@
 name = input("Enter your name: ")
 
 # Outputs a greeting using the name entered by the user
+<<<<<<< HEAD
 # The space after Hello ensures there is a space in the output message
 # Without it the output would be one word i.e. HelloName
+=======
+>>>>>>> 1ef105a581a825a9f20fc2ab3ccf3caabbe2f65b
 print ("Hello " + name + "\nNice to meet you.")
