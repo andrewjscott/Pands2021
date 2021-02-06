@@ -4,7 +4,6 @@
 # Asks the user to input a dollar value which is stored to a variable
 dollars = float(input("Enter an amount in dollars: "))
 
-
 # Stores the absolute of the value entered by the user 
 absDollars = abs(dollars)
 
