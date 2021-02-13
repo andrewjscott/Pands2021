@@ -5,8 +5,8 @@
 # of each if statement by 0.5. This ensures that, for example, a grade of 39.8 will not
 # not output the message "Fail" as it is greater than 39.5. The value of 39.8 will however meet
 # the conditions for the following elif statement as it is less than 49.5, so the input of 
-# 39.8 will output the message "Pass"
-
+# 39.8 will output the message "Pass". 
+"""
 percentage = float(input("Enter percentage: "))
 
 if percentage < 0 or percentage > 100:
@@ -21,3 +21,13 @@ elif percentage < 69.5:
     print("Merit1")
 else:
     print("Distinction")
+"""
+# Round could also be used but I feel the above method is much cleaner as code
+
+# A while loop that continues until the user enters -1
+target = -1
+number = int(input("Enter an integer: "))
+while number != -1:
+    number = int(input("Enter a different integer: "))
+
+print("Finally, you entered -1!")
